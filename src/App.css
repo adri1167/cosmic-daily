@@ -1,0 +1,220 @@
+
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 44px 18px;
+  background:
+    radial-gradient(ellipse at 50% 0%, #26314e 0%, transparent 55%),
+    linear-gradient(180deg, #131a2e, #0b1020);
+  color: #f5ecdb;
+}
+
+.container {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.eyebrow,
+.section-eyebrow {
+  color: #d4bc84;
+  font-size: 10px;
+  letter-spacing: 2.3px;
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 10px 0 4px;
+}
+
+h1 span {
+  color: #d8b975;
+}
+
+.header p {
+  color: #aeb7ca;
+  font-size: 13px;
+}
+
+.zodiac-card {
+  text-align: center;
+  padding: 30px 16px;
+  border: 1px solid #465071;
+  border-radius: 24px;
+  background: linear-gradient(145deg, #26314e, #19233b);
+}
+
+.zodiac-symbol {
+  font-size: 58px;
+  color: #e3c485;
+  margin-bottom: 8px;
+}
+
+.zodiac-name {
+  display: block;
+  color: #d8bd84;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.zodiac-card h2 {
+  font-size: 32px;
+  margin: 12px 0 5px;
+}
+
+.date {
+  color: #aeb7ca;
+  font-size: 12px;
+}
+
+.tabs {
+  display: flex;
+  gap: 7px;
+  overflow-x: auto;
+  margin: 24px 0;
+  padding-bottom: 7px;
+}
+
+.tab {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #414a64;
+  border-radius: 13px;
+  padding: 11px 15px;
+  color: #b6bfd0;
+  background: #1b243a;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.tab span {
+  font-size: 19px;
+}
+
+.tab.active {
+  border-color: #c7a96f;
+  color: #f3dfb4;
+  background: #35405a;
+}
+
+.content-card,
+.tip-card,
+.moon-card {
+  border: 1px solid #39435d;
+  border-radius: 20px;
+  padding: 25px;
+  background: #202941;
+}
+
+.content-card {
+  min-height: 260px;
+}
+
+.content-card h2 {
+  font-size: 33px;
+  margin: 15px 0;
+}
+
+.content-card p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #e5e3e4;
+}
+
+.tip-card {
+  margin-top: 16px;
+  background: #31374b;
+  border-color: #6c604d;
+}
+
+.tip-card span {
+  color: #e1c486;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.tip-card p {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 25px;
+  line-height: 1.35;
+  margin-bottom: 0;
+}
+
+.moon-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 16px;
+}
+
+.moon-symbol {
+  font-size: 44px;
+  color: #dec78e;
+}
+
+.moon-card h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.moon-card p {
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: #b1b9ca;
+}
+
+footer {
+  margin-top: 35px;
+  text-align: center;
+  color: #939bb0;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.status-message {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  text-align: center;
+  color: #e5d4aa;
+  background: #131a2e;
+}
+
+@media (max-width: 480px) {
+  .app {
+    padding: 28px 15px;
+  }
+
+  h1 {
+    font-size: 39px;
+  }
+
+  .zodiac-card h2 {
+    font-size: 28px;
+  }
+
+  .content-card,
+  .tip-card {
+    padding: 21px;
+  }
+}

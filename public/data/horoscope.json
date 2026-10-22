@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-22",
+  "sign": "Steinbock",
+  "generatedAt": "2026-10-22T09:03:18.036Z",
+  "astronomy": {
+    "calculatedAtUTC": "2026-10-22T04:00:00.000Z",
+    "zodiacSystem": "tropical",
+    "planets": {
+      "Sonne": {
+        "sign": "Waage",
+        "degrees": 28.77,
+        "longitude": 208.77
+      },
+      "Mond": {
+        "sign": "Fische",
+        "degrees": 8.15,
+        "longitude": 338.15
+      },
+      "Merkur": {
+        "sign": "Skorpion",
+        "degrees": 20.69,
+        "longitude": 230.69
+      },
+      "Venus": {
+        "sign": "Skorpion",
+        "degrees": 1.96,
+        "longitude": 211.96
+      },
+      "Mars": {
+        "sign": "Löwe",
+        "degrees": 13.52,
+        "longitude": 133.52
+      },
+      "Jupiter": {
+        "sign": "Löwe",
+        "degrees": 23.02,
+        "longitude": 143.02
+      },
+      "Saturn": {
+        "sign": "Widder",
+        "degrees": 9.95,
+        "longitude": 9.95
+      }
+    },
+    "moonPhase": {
+      "name": "Zunehmender Mond",
+      "angle": 129.37,
+      "illuminationPercent": 81.7
+    },
+    "aspects": [
+      {
+        "between": [
+          "Sonne",
+          "Venus"
+        ],
+        "aspect": "Konjunktion",
+        "separation": 3.19,
+        "orb": 3.19
+      },
+      {
+        "between": [
+          "Merkur",
+          "Jupiter"
+        ],
+        "aspect": "Quadrat",
+        "separation": 87.67,
+        "orb": 2.33
+      },
+      {
+        "between": [
+          "Mars",
+          "Saturn"
+        ],
+        "aspect": "Trigon",
+        "separation": 123.57,
+        "orb": 3.57
+      }
+    ]
+  },
+  "horoscope": "Dein Herrscherplanet Saturn im Widder verbindet sich heute in einem harmonischen Trigon mit Mars im Löwen. Das verleiht dir als Steinbock eine kraftvolle Ausdauer und die nötige Entschlossenheit, um Vorhaben strukturiert voranzubringen. Gleichzeitig sorgt der einfühlsame Mond in den Fischen für eine sanfte emotionale Balance zu deinem gewohnten Pragmatismus. Achte jedoch auf das Quadrat zwischen Merkur und Jupiter: Es verleitet leicht dazu, sich zu weit aus dem Fenster zu lehnen oder Details zu übersehen. Vertraue auf deine ruhige Intuition, plane überlegt und nutze die tatkräftige Energie für sichtbare, nachhaltige Fortschritte.",
+  "love": "Die feinfühligen Fische-Mond-Schwingungen öffnen dein Herz für tiefere Zwischentöne. Mit Sonne und Venus in intensiver Verbindung lohnt es sich, ehrlich über Wünsche zu sprechen. Hüte dich vor übertriebenen Versprechungen, die das Merkur-Jupiter-Quadrat provozieren könnte. Echte Zuneigung zeigt sich heute nicht in großen Reden, sondern in verlässlicher Präsenz und liebevollen Gesten.",
+  "career": "Das Trigon zwischen Mars und Saturn stärkt dein Durchhaltevermögen. Du bringst Projekte zielgerichtet voran und überzeugst durch Disziplin. Sei allerdings vorsichtig bei Vertragsverhandlungen oder spontanen Absprachen: Prüfe Fakten genau, statt dich von optimistischen Visionen blenden zu lassen. Solide Substanz wiegt für dich heute deutlich mehr als schneller Glanz.",
+  "behavior": "Nutze die aktive Mars-Saturn-Energie für konkrete Taten, bleibe aber innerlich beweglich. Nimm dir bewusst Zeit, um in dich hineinzuspüren, anstatt stur Plänen zu folgen. Ein gesunder Mittelweg aus strategischem Handeln und einfühlsamem Zuhören macht dich heute für dein Umfeld zu einem unersetzlichen Fels in der Brandung.",
+  "avoid": "Vermeide es, vorschnell Verträge zu unterschreiben oder Zusagen zu machen, die du später bereuen könntest. Hüte dich vor Überheblichkeit und lasse dich nicht von unrealistischen Versprechungen blenden.",
+  "tip": "Verankere deine Ideen in der Realität: Setze heute einen einzigen, aber handfesten Schritt für dein wichtigstes Langzeitziel um."
+}
